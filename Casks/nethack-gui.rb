@@ -9,7 +9,7 @@ cask "nethack-gui" do
   homepage "https://github.com/abcbarryn/NetHack/tree/NetHack-3.7"
   
   # Requirement checks
-  depends_on macos: ">= :26"
+  depends_on macos: ">= 26.0"
   depends_on arch: :arm64
   
   # This identifies the .app inside your DMG to move to /Applications
